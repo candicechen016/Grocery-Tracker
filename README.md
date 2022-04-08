@@ -1,5 +1,5 @@
 # Grocery Tracker
-___
+
 
 #### Click the [link](http://cs411-pt1-team048.uc.r.appspot.com/) and create your own account!
 
