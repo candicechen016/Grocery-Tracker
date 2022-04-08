@@ -1,6 +1,12 @@
-# Household-Grocery-Tracker
+# Grocery Tracker
+___
 
-This is an ongoing academic project of CS411 in UIUC.
+#### Click the [link](http://cs411-pt1-team048.uc.r.appspot.com/) and create your own account!
 
-## Project Summary
-The project aims to develop an application that helps users record their purchase products, and the application designer can utilize the data provided by users to analyze consumer preferences. With this application, users can easily track the food purchase history, the food's condition, and the timing of supplementing new food. Users can compare the price and quality of the same products sold in different stores and know which store will cost them less or is worth visiting again. By analyzing consumer preferences, these data can be used in precision marketing. The store can plan a promotion to their main targeted audiences.
+
+## Description
+The application aims to help users manage groceries whether they already have or about to buy in an organized manner.
+Users are able to track and update their purchased items to take good use of ingredients such that produce leftover as little as possible.    
+Simple user interface in our application allows users to stick to it for a long time. 
+Finally, while collecting data from users, it's a great tool for marketing teams in retail industry to analyze consumers' shopping habits.
+  
