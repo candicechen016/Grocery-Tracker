@@ -2,7 +2,7 @@
 
 
 #### Click the [link](http://cs411-pt1-team048.uc.r.appspot.com/) and create your own account!
-
+(The database of the webpage is implemented on GCP so we have to start the instance before running.)
 
 ## Description
 The application aims to help users manage groceries whether they already have or about to buy in an organized manner.

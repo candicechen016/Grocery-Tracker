@@ -1,11 +1,11 @@
 
-{% block title %}Grocery Stores{% endblock %}
+{% block title %}At Home{% endblock %}
 {% extends "base.html" %}
 {% block body %}
 
     <section class="home">
         <div class="container" style="text-align: right">
-        <button type="button" class="btn new"><a href="all_items.html">Add items</a></button>
+        <button type="button" class="btn new"><a href="{{ url_for('product_list') }}">Add items</a></button>
         </div>
 
 
