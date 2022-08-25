@@ -1,5 +1,7 @@
 # Grocery Tracker
 
+Here is the [demo](https://mediaspace.illinois.edu/media/t/1_hlkk0j03) vedio for demonstration of all fuctionalities. 
+
 Our application consists of three tabs:
 * At Home
 * To Buy
@@ -12,15 +14,22 @@ We created 10 tables of relational database using MySQL database.
 ### At Home
 The main page for users to manage their purchased items.
 We provide three storage spaces, fridge, freezer, and pantry for users to manage their purchased items. Each row has item name, amount, and expiration date. Users can edit all of the information. 
-![image](https://media.github-dev.cs.illinois.edu/user/14624/files/74b8be2b-fbea-43df-bc80-734f04203350)
+![AtHome](https://user-images.githubusercontent.com/89559531/186767080-ef6dc220-67c7-46f1-9fa3-25a5b44763bd.png)
+![Product - AddToHome](https://user-images.githubusercontent.com/89559531/186768065-66802140-75db-48c5-b3cc-786de636ae3a.png)
+
+
 
 ### To Buy
-Users can create their own shopping list, like **Frequent Items** or **birthday party** and put items into the lists.
-![image](https://media.github-dev.cs.illinois.edu/user/14624/files/2cf02a7f-3e97-4948-a08a-0fb8a3a3a86c)
+Users can create their own shopping list, like **Frequent Items** or **birthday party** and put items into the lists. 
+![ToBuy (short)](https://user-images.githubusercontent.com/89559531/186767678-2a99f3fa-385a-45fc-8b8c-82ff502fd4c7.png)
+![Product - AddToBuy](https://user-images.githubusercontent.com/89559531/186768122-7b6d7b15-177e-4738-818a-294df1492e86.png)
+
+
 
 ### Find Stores
-Users can search grocery stores information at this page.
-![image](https://media.github-dev.cs.illinois.edu/user/14624/files/10eebed3-ea9d-461e-ac1f-391d057baa8e)
+Users can search grocery stores information at this page. 
+![FindStores](https://user-images.githubusercontent.com/89559531/186767799-a1ea40f5-009d-4ec9-a8f8-85c49b11c216.png)
+
 
 ## Advanced Database Functions
 ### Stored procedure
@@ -30,10 +39,4 @@ The second store procedure takes the shopping list as the input, and it calculat
 
 ### Trigger 
 We has a trigger which executes after inserting a new row in the has table. A new row will be inserted into the has table when the user buys an item (controlled by user interface). The trigger will automatically create an inventory list if the list that was added in the has table does not exist. Our main goal is to trace where the food is stored, so every item the users bought should be in the inventory list.
-
-  
-
-##### Note:  
-Our application and database are both hosted on GCP.  
-The Grocery Tracker [website](https://cs411-pt1-team048.uc.r.appspot.com/) is available online as long as our GCP instance is on.
 
